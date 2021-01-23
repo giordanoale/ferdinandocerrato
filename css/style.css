@@ -18,7 +18,7 @@ body{
 
 /* intestazione */
 
-
+/* immagine nando https://www.trovavetrine.it/imgs/sito/f/ferdinandocerrato/812bdc9ae3a0d37ab3f8ea7faa56b2bd_large.jpg */
 
 /* barra di navigazione */
 .container {
@@ -60,6 +60,41 @@ a:hover {
 /* /barra di navigazione */
 
 /* immagine di bologna */
-.panorama{
+.panorama {
   overflow: hidden;
+}
+/* /immagine di bologna */
+
+/* sezione home */
+
+.home {
+  text-align: center;
+}
+
+.home h1{
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.home h2{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.propic{
+  height: 250px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.home h3{
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.home .curriculum{
+  height: 50px;
 }
