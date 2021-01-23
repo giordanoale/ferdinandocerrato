@@ -14,20 +14,21 @@ body{
   display: block;
   clear: both;
 }
-
-/* Immagine Bologna https://www.trovavetrine.it/imgs/sito/f/ferdinandocerrato/casa-vacanze-bologna.jpg */
-
-/* Logo https://www.trovavetrine.it/imgs/sito/f/ferdinandocerrato/logo.jpg */
+/* /general */
 
 /* intestazione */
+
+
+
+/* barra di navigazione */
 .container {
   width: 75%;
   margin: auto;
 }
 
 .main-nav {
-  height: 20vh;
-  line-height:117px;
+  height: 20px;
+  line-height:110px;
 }
 
 .main-logo {
@@ -55,4 +56,10 @@ body{
 
 a:hover {
   color: black;
+}
+/* /barra di navigazione */
+
+/* immagine di bologna */
+.panorama{
+  overflow: hidden;
 }
