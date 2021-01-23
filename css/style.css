@@ -5,8 +5,13 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Raleway', sans-serif;
+
 }
 
 .clearfix::after{
@@ -17,7 +22,12 @@ body{
 /* /general */
 
 /* intestazione */
-
+header{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 /* immagine nando https://www.trovavetrine.it/imgs/sito/f/ferdinandocerrato/812bdc9ae3a0d37ab3f8ea7faa56b2bd_large.jpg */
 
 /* barra di navigazione */
